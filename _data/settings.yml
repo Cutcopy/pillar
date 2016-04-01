@@ -1,0 +1,14 @@
+navigation:
+  - title: work
+    url: /projects.html
+  - title: Contact
+    url: /contact.html
+
+socials:
+  facebook: '#'
+  linkedin: '#'
+  gplus: '#'
+  youtube: '#'
+  twitter: 'https://twitter.com/losslessdesign'
+  instagram: '#'
+  pintrest: '#'

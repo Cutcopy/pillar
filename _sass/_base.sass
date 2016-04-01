@@ -1,0 +1,72 @@
+\:root
+  font-size: 15px
+
+*
+  box-sizing: border-box
+  -webkit-font-smoothing: subpixel-antialiased
+
+body
+  font-family: $bodyfont
+  color: $bodycolor
+  margin: 0
+  background-image: url(/img/forest_bw.jpg)
+  background-size: cover
+  background-position: center center
+  background-repeat: no-repeat
+  //height: 100vh
+  display: flex
+  align-items: center
+  align-content: center
+  justify-content: center
+
+
+h1, h2, h3, h4, h5, h6
+  font-family: $headerfont
+
+.container
+  width: 100%
+  max-width: $main-width
+  margin: 50px auto
+
+hr
+  border-color: $brand
+
+a
+  color: $brand
+  text-decoration: none
+  &:visited
+    color: $brand-dark
+  &:hover
+    color: $brand-light
+
+
+.button-wrapper
+  margin-top: 2rem
+  margin-bottom: 3rem
+
+.button
+  background: $brand
+  color: white
+  font-weight: bold
+  border-radius: 10px
+  padding: 1rem 5rem
+  transition: 0.3s
+  box-shadow: 0 2px 3px rgba(0,0,0,0.4)
+  &:hover
+    background: $brand-light
+    color: white
+  &:visited
+    color: white
+
+/* utilities */
+
+// for screen readers
+.sr-only
+  position: absolute
+  width: 1px
+  height: 1px
+  padding: 0
+  margin: -1px
+  overflow: hidden
+  clip: rect(0,0,0,0)
+  border: 0

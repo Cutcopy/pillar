@@ -1,0 +1,57 @@
+# Site settings
+title: Brent Stradling - UX Designer
+author: Brent Stradling
+email: brent.stradling@gmail.com
+job: UX Designer
+description: > # this means to ignore newlines until "baseurl:"
+  Keep it simple kids
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "localhost:4000" # the base hostname & protocol for your site
+#images
+image: /img/forest_bw.jpg
+headshot: /img/headshot.jpg
+#social URLs
+codepen: http://codepen.io/Bracketeer/
+github: https://github.com/bracketeer
+linkedin: https://www.linkedin.com/in/brentstradling
+twitter: https://twitter.com/Brent_is_Online
+
+work:
+  - /img/mailbender-01.png
+  - /img/mailbender-02.png
+  - /img/mailbender-03.png
+  - /img/Shogi app-01.png
+  - /img/Shogi app-02.png
+  - /img/Shogi app-03.png
+  - /img/email-1.png
+  - /img/email-2.png
+  - /img/email-3.png
+
+# Build settings
+markdown: kramdown
+
+#Handling Reading
+encoding: "utf-8"
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+highlighter: rouge
+
+paginate: 5
+permalink: none
+
+gems:
+  - jemoji
+  - octopress-autoprefixer
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Excludes
+exclude:
+  - .sass-cache
+
+sass:
+  sass_dir: _sass
+  style: :nested

@@ -1,0 +1,34 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8"
+
+$main-width: 20rem
+
+//fonts
+$bodyfont: 'Arimo', helvetica, arial, sans-serif
+$headerfont: 'Droid Sans mono', helvetica, arial, sans-serif
+
+//colors
+
+$brand: #3A8AE7
+$brand-light: lighten($brand, 10%)
+$brand-dark: darken($brand, 20%)
+$bodycolor: #252525
+
+//Mixins
+@mixin size($n)
+  height: $n
+  width: $n
+
+//vendors
+@import "vendor/normalize"
+@import "vendor/toast"
+
+@import "base"
+@import "splash"
+@import "nav"
+@import "header"
+@import "posts"
+@import "footer"
+@import "popup"
