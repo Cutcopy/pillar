@@ -10,6 +10,11 @@ url: "localhost:4000" # the base hostname & protocol for your site
 #images
 image: /img/forest_bw.jpg
 headshot: /img/headshot.jpg
+
+#docs
+resume: /img/Brent_Stradling_Resume.pdf
+portfolio: /img/Brent_Stradling_Portfolio.pdf
+
 #social URLs
 codepen: http://codepen.io/Bracketeer/
 github: https://github.com/bracketeer

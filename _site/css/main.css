@@ -737,12 +737,10 @@ main {
 .work {
   width: 100%;
   max-width: 250px;
-  border-radius: 10px;
   margin: 2rem auto;
   display: block;
   cursor: -webkit-zoom-in;
-  cursor: zoom-in;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4); }
+  cursor: zoom-in; }
 
 .hidden {
   display: none; }
